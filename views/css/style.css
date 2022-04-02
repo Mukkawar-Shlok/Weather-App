@@ -1,0 +1,70 @@
+:root {
+  --hue-color: 210;
+  --back-color: hsl(215, 21%, 11%);
+  --back-light: hsl(218, 15%, 35%);
+  --black-hover: hsl(var(--hue-color), 80%, 87%);
+}
+
+body {
+  background-color: var(--back-color);
+}
+
+.main {
+  height: 100vh;
+  width: 19rem;
+  padding: 10px;
+}
+.card {
+  color: hsl(210, 17%, 82%);
+  top: 10%;
+  background-color: var(--back-light);
+}
+
+.card-title {
+  border-top: 2px solid black;
+  text-align: center;
+}
+
+.list-group-item {
+  text-align: center;
+  background-color: var(--back-light);
+  font-size: 22px;
+  font-weight: 500;
+  color: hsl(210, 17%, 82%);
+}
+
+.card-title {
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.card-title:hover {
+  color: var(--black-hover);
+}
+
+.card-text {
+  border-top: 2px solid black;
+
+  text-align: center;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.card-text:hover {
+  color: var(--black-hover);
+  cursor: pointer;
+}
+
+body > div > div > ul > li:nth-child(3) {
+  font-weight: 600;
+  font-size: 35px;
+}
+body > div > div > ul > li:nth-child(1) {
+  font-weight: 600;
+  font-size: 35px;
+}
+body > div > div > ul > li:hover {
+  cursor: pointer;
+  color: var(--black-hover);
+  transform: translate(10px);
+}
