@@ -6,7 +6,7 @@ let port = process.env.PORT || 3000;
 const app = express();
 app.set('view engine', 'ejs')
 var city = 'Mumbai'
-var url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=94c58afacec910ab10262578a14f4815`
+var url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=type your authid`
 
 app.get('/', (req, res) => {
 
